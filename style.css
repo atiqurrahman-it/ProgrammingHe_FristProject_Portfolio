@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.header {
+  background: url("/images/header_bg.png"), url("/images/developer.png");
+  background-position: bottom right, left;
+  background-repeat: no-repeat;
+}
+/* commun css sytle  */
+.btn-primary {
+  font-weight: 700;
+  height: 64px;
+  padding: 18px 35px;
+  font-size: 20px;
+  background: #fd6e0a;
+  border: 0;
+  color: #ffffff;
+}
+
+/* navbar section  */
+nav {
+  display: flex;
+  padding: 50px 200px;
+  justify-content: space-between;
+}
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+.text-primary {
+  color: orange;
+}
+nav ul {
+  display: flex;
+  /* align-items: flex-end; */
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin-left: 50px;
+}
+
+/* banar section  */
+.banner {
+  display: flex;
+  align-items: center;
+  padding: 50px 0px 0px 230px;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 85px;
+}
+
+.banner-sub-title {
+  font-weight: 600;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.banner-description {
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.banner_image {
+  max-width: 584px;
+  max-height: 676px;
+  padding-left: 250px;
+}
+/* main section */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+section {
+  margin-top: 130px;
+}
+/* about section styles */
+.about {
+  background: #fff8f3;
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+
+.section-description {
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-between;
+}
+.about .info-title {
+  font-size: 20px;
+  color: #757575;
+}
+
+.info-description {
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+}
