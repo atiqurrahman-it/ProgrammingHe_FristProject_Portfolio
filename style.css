@@ -5,7 +5,8 @@
 }
 
 .header {
-  background: url("/images/header_bg.png"), url("/images/developer.png");
+  /* background-color: #ff3838; */
+  background-image: url("/images/header_bg.png"), url("/images/developer.png");
   background-position: bottom right, left;
   background-repeat: no-repeat;
 }
@@ -68,7 +69,7 @@ nav ul li {
 .banner_image {
   max-width: 584px;
   max-height: 676px;
-  padding-left: 250px;
+  /* padding-left: 250px; */
 }
 /* main section */
 main {
@@ -111,4 +112,35 @@ section {
   font-weight: 700;
   font-size: 20px;
   color: #474747;
+}
+
+/* What i do styles */
+.what-i-do {
+  text-align: center;
+}
+.what-i-do_description {
+  padding: 10px 150px 10px;
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  text-align: justify;
+  gap: 24px;
+}
+
+.skill {
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+}
+.skill-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.skill-description {
+  color: #757575;
 }
