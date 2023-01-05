@@ -1,16 +1,11 @@
+/* -------commune css style start ---------  */
+
 * {
   padding: 0;
   margin: 0;
   font-family: "IBM Plex Sans", sans-serif;
 }
 
-.header {
-  /* background-color: #ff3838; */
-  background-image: url("/images/header_bg.png"), url("/images/developer.png");
-  background-position: bottom right, left;
-  background-repeat: no-repeat;
-}
-/* commun css sytle  */
 .btn-primary {
   font-weight: 700;
   height: 64px;
@@ -20,8 +15,16 @@
   border: 0;
   color: #ffffff;
 }
+/* -------commune css style End  ---------  */
 
-/* navbar section  */
+/* -------------- Header  section start -----------------  */
+.header {
+  background-image: url("/images/header_bg.png"), url("/images/developer.png");
+  background-position: bottom right, left;
+  background-repeat: no-repeat;
+}
+
+/* -------------- Nav  section start -----------------  */
 nav {
   display: flex;
   padding: 50px 200px;
@@ -42,9 +45,17 @@ nav ul {
 nav ul li {
   list-style: none;
   margin-left: 50px;
+  padding: 7px 10px;
+}
+nav ul li:hover {
+  background-color: #fd6e0a;
+  font-size: 20px;
 }
 
-/* banar section  */
+/* -------------- Header  section End  -----------------  */
+
+/* -------------- banner part  start -----------------  */
+
 .banner {
   display: flex;
   align-items: center;
@@ -71,7 +82,10 @@ nav ul li {
   max-height: 676px;
   /* padding-left: 250px; */
 }
-/* main section */
+
+/* -------------- banner part End   -----------------  */
+
+/* -------------- Main  section start -----------------  */
 main {
   max-width: 1140px;
   margin: 0 auto;
@@ -79,7 +93,8 @@ main {
 section {
   margin-top: 130px;
 }
-/* about section styles */
+/* -------------- About  section start -----------------  */
+
 .about {
   background: #fff8f3;
   border-radius: 10px;
@@ -114,7 +129,9 @@ section {
   color: #474747;
 }
 
-/* What i do styles */
+/* -------------- About  section End  -----------------  */
+/* -------------- What i do  section start -----------------  */
+
 .what-i-do {
   text-align: center;
 }
@@ -144,3 +161,5 @@ section {
 .skill-description {
   color: #757575;
 }
+
+/* -------------- What i do  section End  -----------------  */
