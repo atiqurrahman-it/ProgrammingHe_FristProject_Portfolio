@@ -19,9 +19,13 @@
 
 /* -------------- Header  section start -----------------  */
 .header {
-  background-image: url("/images/header_bg.png"), url("/images/developer.png");
-  background-position: bottom right, left;
+  background-image: url("../images/header_bg.png"),url("../images/developer.png");
+  background-position: bottom right, top left 25px;
+  background-position: bottom right, left 25px;
+  background-position: bottom right, 4% 45%;
+
   background-repeat: no-repeat;
+  /* background-size: auto 50px 600px; */
 }
 
 /* -------------- Nav  section start -----------------  */
